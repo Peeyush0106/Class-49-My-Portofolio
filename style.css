@@ -1,0 +1,40 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#name {
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: lightgreen;
+    color: red;
+    display: flex;
+}
+
+.header {
+    border: solid;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    background-color: lightcyan;
+    display: flex;
+    margin: 0.5%;
+}
+
+hr {
+    opacity: 0.6;
+    height: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: black;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.social-icons {
+    transition: transform .2s;
+    transform: scale(.7);
+    text-align: right;
+}

@@ -3,27 +3,28 @@
 
 <head>
     <title>My Portofolio</title>
-    <style>
-        html {
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        }
-
-        h1 {
-            color: green;
-        }
-
-        * {
-            border: solid;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body>
-    <h1>
+    <h1 id="name">
         Peeyush
     </h1>
-    <a href="about-me.html">About Me</a>
-    <a href="projects.html">My Projects</a>
+    <div class="header">
+        <br>
+        <a href="about-me.html" class="header">
+            <p>
+                About Me
+            </p>
+        </a>
+        <a href="projects.html" class="header">
+            <p>
+                My Projects
+            </p>
+        </a>
+    </div>
+    <br>
+    <hr />
     <h2>
         There are some games designed by me.
     </h2>
@@ -47,14 +48,20 @@
             matter.js
         </li>
     </ul>
-    <a href="https://peeyush0106.github.io/Road-Racer-Game--Golden-Fighter/"><img src="road-racing.png"
-            alt="Road Fighter Game Image" draggable="false"></a>
-    <p>
-        Road Racing Game
-    </p>
-    <a href="#"><img src="fb.png" alt="Facebook" width=50></a>
-    <a href="#"><img src="insta.png" alt="Facebook" width=50></a>
-    <a href="#"><img src="youtube.png" alt="Facebook" width=50></a>
+    <div class="grid">
+        <div class="item">
+            <a href="https://peeyush0106.github.io/Road-Racer-Game--Golden-Fighter/"><img src="road-racing.png"
+                    alt="Road Fighter Game Image" draggable="false"></a>
+            <p>
+                Road Racing Game
+            </p>
+        </div>
+    </div>
+    <div class="social-icons">
+        <a href="#"><img src="fb.png" alt="Facebook" width=50></a>
+        <a href="#"><img src="insta.png" alt="Facebook" width=50></a>
+        <a href="#"><img src="youtube.png" alt="Facebook" width=50></a>
+    </div>
 </body>
 
 </html>
