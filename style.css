@@ -14,8 +14,8 @@ a:hover, img:hover, button:hover, li:hover, p:hover, h1:hover, h2:hover, h3:hove
     border: solid;
     border-radius: 20px;
     justify-content: space-evenly;
-    background-color: lightgreen;
-    color: red;
+    background-color: #90ee90;
+    color: #ff0000;
     display: flex;
 }
 
@@ -23,7 +23,7 @@ a:hover, img:hover, button:hover, li:hover, p:hover, h1:hover, h2:hover, h3:hove
     border: solid;
     border-radius: 20px;
     justify-content: space-evenly;
-    background-color: lightcyan;
+    background-color: #90ffff;
     display: flex;
     margin: 0.5%;
 }
@@ -32,7 +32,7 @@ a:hover, img:hover, button:hover, li:hover, p:hover, h1:hover, h2:hover, h3:hove
     border: solid;
     border-radius: 20px;
     justify-content: space-evenly;
-    background-color: lightpink;
+    background-color: #ffaaaa;
     display: flex;
     margin: 0.5%;
 }
@@ -45,7 +45,7 @@ a {
     border: solid;
     border-radius: 20px;
     justify-content: space-evenly;
-    background-color: olivedrab;
+    background-color: #6b8e23;
     display: flex;
     margin: 0.5%;
 }
@@ -53,7 +53,7 @@ a {
 hr {
     opacity: 1;
     height: 5px;
-    background-color: black;
+    background-color: #000000;
 }
 
 h2 {
@@ -79,20 +79,20 @@ h2 {
 .library-list {
     border: solid;
     border-radius: 20px;
-    background-color: yellow;
-    color: red;
+    background-color: #ffff00;
+    color: #ff0000;
     display: flex;
     padding-left: 35%;
 }
 
 #fb {
-    background-color: orangered;
+    background-color: #ff0000;
 }
 
 #insta {
-    background-color: lightgreen;
+    background-color: #00ff00;
 }
 
 #youtube {
-    background-color: lightblue;
+    background-color: #ffffff;
 }
