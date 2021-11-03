@@ -7,7 +7,15 @@
 
 <body>
     <h1 id="name">
-        Peeyush
+        <span id="name-part-1">
+            ush
+        </span>
+        <span id="name-part-2">
+            Pee
+        </span>
+        <center id="name-middle">
+            y
+        </center>
     </h1>
     <div class="header">
         <a href="about-me.html" target="_blank">
@@ -66,11 +74,25 @@
             </p>
         </div>
     </div>
+
     <div class="social-icons">
-        <a href="#"><img src="fb.png" alt="Facebook" width=50 class="social-icon" id="fb"></a>
-        <a href="#"><img src="insta.png" alt="Facebook" width=50 class="social-icon" id="insta"></a>
-        <a href="#"><img src="youtube.png" alt="Facebook" width=50 class="social-icon" id="youtube"></a>
+        <a href="#"><img src="fb.png" alt="Facebook" width=50 class="social-icon"></a>
+        <a href="#"><img src="insta.png" alt="Instagram" width=50 class="social-icon"></a>
+        <a href="#"><img src="youtube.png" alt="YouTube" width=50 class="social-icon"></a>
     </div>
 </body>
+
+<script>
+    window.onload = function () {
+        setInterval(async function () {
+            await new Promise(r => setTimeout(r, 1000));
+            document.getElementById("name-part-1").style.left = "50.5%";
+            document.getElementById("name-part-2").style.right = "50.5%";
+            await new Promise(r => setTimeout(r, 4000));
+            document.getElementById("name-part-1").style.left = "2%";
+            document.getElementById("name-part-2").style.right = "2%";
+        }, 6000);
+    }
+</script>
 
 </html>
